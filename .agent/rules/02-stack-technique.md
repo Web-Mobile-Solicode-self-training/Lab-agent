@@ -1,4 +1,6 @@
 # Technical Stack
-**Frontend**: HTML5, Tailwind CSS (via CDN), Preline UI (via CDN), Lucide Icons (via CDN).
-**Architecture**: Single-page static structure.
-**Naming**: kebab-case (id/classes), camelCase (JS variables).
+**Backend**: Laravel 12 (PHP), Eloquent ORM, Service Pattern.
+**Frontend**: Blade Templates, Alpine.js, Tailwind CSS v4.
+**Database**: MySQL (all changes via migrations).
+**Architecture**: Monolithic with reactive components.
+**Naming**: camelCase (PHP methods/JS), Snake_case (Database/PHP variables), PascalCase (Components/Services).

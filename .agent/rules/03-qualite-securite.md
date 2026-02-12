@@ -1,5 +1,6 @@
-# Quality & Standards
-- **Semantics**: Use proper HTML5 semantic elements (header, main, section, footer).
-- **Responsiveness**: Ensure design is mobile-first and works on all breakpoints.
-- **Performance**: Minimize custom CSS and leverage Tailwind utilities.
-- **Accessibility**: Use appropriate ARIA labels and alt tags for images.
+# Quality & Security
+- **Security**: Always use `auth` middleware and Gates for authorization. Sanitize all inputs via Request classes.
+- **Clean Code**: Extract logic from Controllers to Services or Form Requests.
+- **Frontend**: Ensure Alpine components are self-contained.
+- **Semantics**: Use proper ARIA and semantic HTML.
+- **Performance**: Optimize Eloquent queries (no N+1).
